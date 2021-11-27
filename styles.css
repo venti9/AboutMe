@@ -27,6 +27,10 @@ a {
     font-weight: 600px;
 }
 
+a:hover {
+    transform: scale(1.25,1.25) rotate(5deg);
+}
+
 .photo {
     min-height: 40px;
     text-align: center;
@@ -46,6 +50,14 @@ a {
 
 .menu li {
     padding: 10px;
+}
+
+.menu li:hover {
+    transform: scale(1.25,1.25) rotate(5deg);
+}
+
+.menu li {
+    transition: all .3s;
 }
 
 header {
@@ -114,10 +126,20 @@ footer {
 
 .tag-yellow {
     background-color: rgb(224, 150, 38);
+    transition: all .5s;
+}
+
+.tag-yellow:hover {
+    transform: scale(1.25,1.25) rotate(5deg);
 }
 
 .tag-blue {
     background-color: #508fb9;
+    transition: all .5s;
+}
+
+.tag-blue:hover {
+    transform: scale(1.25,1.25) rotate(5deg);
 }
 
 .photo {
