@@ -126,20 +126,20 @@ footer {
 
 .tag-yellow {
     background-color: rgb(224, 150, 38);
-    transition: all .5s;
+    transition: all .3s linear;
 }
 
 .tag-yellow:hover {
-    transform: scale(1.25,1.25) rotate(5deg);
+    padding: 10px;
 }
 
 .tag-blue {
     background-color: #508fb9;
-    transition: all .5s;
+    transition: all .3s linear;
 }
 
 .tag-blue:hover {
-    transform: scale(1.25,1.25) rotate(5deg);
+    padding: 10px;
 }
 
 .photo {
